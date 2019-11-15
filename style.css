@@ -1,0 +1,46 @@
+@import 'styles/about.css';
+@import 'styles/contact.css';
+@import 'styles/equalaizer.css';
+@import 'styles/footer.css';
+@import 'styles/header.css';
+@import 'styles/navbar.css';
+@import 'styles/portfolio.css';
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    margin: 0px;
+    overflow-x:hidden;
+  
+    user-select: none;
+    height: inner;
+    min-width: 1000px;
+ 
+}
+h5{
+    color: #999999;
+    line-height : 20px;
+    font-family: Verdana;
+    font-weight: 300;
+    font-stretch: narrower;
+    letter-spacing: 0.01px;
+    font-size : 11px;
+}
+h2{
+    color: #999999;    
+}
+.invisible{
+    opacity: 0;
+    position: relative;
+   margin-top:5vh; 
+  }
+  .brand{
+    font-family: Verdana;   
+    color: #999999;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+  }
+  h1{
+   font-size: 1.5vw;
+  }

@@ -1,0 +1,88 @@
+.portfolio{
+    background-repeat:no-repeat;
+    background-image: url(../pic/bg.svg);
+    width: 100vw;
+    height: 100vh;
+    padding-top: 3vh;
+}
+.portfolio> h1{
+margin-bottom: 4vh;
+}
+.portfolio_slider{
+    transition: 1s;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10%;
+}
+.portfolio_photo{
+    margin: 0;
+    width: 16vw;
+    height: 16vw;
+    background-size:cover;
+}
+.portfolio_photo>div>p{
+    text-align: center;
+    position: relative;
+    width: 12vw;
+    transition: 0.4s;
+    font-family: Verdana;
+    font-size: 0.8vw;
+    margin:auto;    
+}
+
+.portfolio_photo>div{
+    width: 16vw;
+    height: 16vw;
+    color:rgba(255,51,51,0);
+    display:grid;
+}
+.portfolio_photo>div:hover{
+    color: white;
+    background: rgb(255,51,51); 
+    background-size:cover;
+    }
+.porfolio_Btn{
+    height: 2.5vw;
+    width:2.5vw;
+    position: relative;
+    top:16.3vw;
+    border-radius: 100px;
+    border: solid 1px #999999;
+}
+.porfolio_Btn::before{
+    border-right: solid 1px #999999;
+    border-top: solid 1px  #999999;
+    height: 0.8vw;
+    width: 0.8vw;
+    display:block;
+    content: "";
+    margin-top: 0.8vw;
+    margin-left: 0.6vw;
+    transform: rotate(45deg);
+    
+}
+.porfolio_Btn:hover{
+    background-color:#999999;
+}
+.porfolio_Btn:hover::before{
+    border-color:white;
+}
+.wrapper-portfolio{
+    display:flex;
+    position: relative;
+    left: 18.5vw;
+    transition: 1s;
+}
+.left{
+    right: 0.5vw;
+    transform: rotate(-180deg)
+}
+.right{
+    left: 10vw;
+}
+
+
+/* сменить дату
+поправить разрабов
+  */

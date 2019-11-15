@@ -1,0 +1,27 @@
+footer{
+    height: 25vh;
+    background-color: #9a9a9e;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    grid-column-gap: 4vw;
+    font-family: Verdana;
+    width: 100vw;
+}
+
+footer > h5{
+    margin-top: 5vh;
+    color:#ffffff;
+    font-weight: 100;
+    line-height : 20px;
+    font-size: 12px;  
+}
+footer > h5:nth-of-type(2n){
+ text-align: right;
+}
+footer>h5:last-of-type{
+    align-content: center;
+    grid-column: 1/3;
+ 
+}

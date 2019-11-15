@@ -1,0 +1,66 @@
+ .main{
+     height:110%;
+     transition: 1s;
+   }
+ 
+   .main_photo{
+       position: relative;
+       top: 3vh;
+       left:38vw;
+      height: 92vh;
+      width: 46%;
+      background-image: url(../pic/1.jpg);
+      background-repeat:no-repeat;
+      background-size:cover;
+      background-position:center;
+    
+      color: #999999;
+      font-family: Verdana;
+   }
+   .main_photo > h5:first-of-type
+       {
+           font-weight: 100;
+           font-family : Georgia;
+           font-size : 1.01vw;
+           line-height : 30px;
+           color : #9A9A9E;
+           margin-top: 20px;
+         }
+   
+   .main_photo > h1 {
+       font-weight: bold;
+       font-size:2.6vw;
+       line-height: 8vh;
+       margin-bottom:0;
+      }
+   .main_photo > h5:first-of-type, .main_photo > h1{
+       position: relative;
+   right: 22.9vw;
+   top: 17vh;
+   }
+   .main_photo>a>h5:last-of-type{
+       position: absolute;
+       display: block;
+       color: #ffffff;
+       left: 8vw;
+       top:70vh;
+       font-weight: 100;
+       border: 1px solid #ffffff;
+       padding: 1.2vh 1.5vw 1.2vh 1.5vw;  
+   }
+ 
+   .main_photo>a>h5:last-of-type::after{
+       position: absolute;
+       height:15vh;
+       left:50%;
+       border-right:  #ffffff 1px solid;
+       display: block;
+       content: "";
+       top:100%;
+       transition: background-color 0.5s;
+   }
+   .main_photo>a>h5:last-of-type:hover{
+       background-color:rgba(255, 255, 255, 0.3);
+   }
+
+   

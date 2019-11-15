@@ -1,0 +1,21 @@
+.wrapper-equalaizer{
+    height: 100vh;
+    width: 10vw;
+    position: fixed;
+    left: 88vw;
+}
+.equalaizer{
+    list-style-type: none;
+  position: absolute;
+    top:30vh;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-row-gap: 2px;
+}
+.equalaizer_item{
+    width:0.2vw;
+    height:8px;
+    background-color: rgba(153,153,153,0.2);
+    display: block;
+    transition: width 0.3s;
+}

@@ -1,0 +1,151 @@
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Неизвестный исполнитель</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="navbar">
+     <a href="#"> <svg class="navbar_logo" viewBox="0 0 26.9 30.91">
+     <polygon points="0.5 30.41 26.4 15.46 0.5 0.5 0.5 30.41"/></svg></a>
+  <div class="navbar-wrapper">
+    <h6 class="navbar_text">обо мне</h6>
+       <a href="#about"><div class="navbar_switch" onmousemove="nameVisible(0)" onmouseout="nameUnvisible(0)"></div></a>
+    <h6 class="navbar_text">портфолио</h6>
+       <a href="#portfolio"><div class="navbar_switch" onmousemove="nameVisible(1)" onmouseout="nameUnvisible(1)"></div></a>
+    <h6 class="navbar_text">контакты</h6>
+       <a href="#contact"><div class="navbar_switch" onmousemove="nameVisible(2)" onmouseout="nameUnvisible(2)"></div></a>
+  </div>
+</div>
+<div class="wrapper-equalaizer invisible">
+<ul class="equalaizer">
+ <li class="equalaizer_item"></li>
+ <li class="equalaizer_item"></li>
+ <li class="equalaizer_item"></li>
+ <li class="equalaizer_item"></li>
+ <li class="equalaizer_item"></li>
+ <li class="equalaizer_item"></li>
+ <li class="equalaizer_item"></li>
+ <li class="equalaizer_item"></li>
+ <li class="equalaizer_item"></li>
+ <li class="equalaizer_item"></li>
+ <li class="equalaizer_item"></li>
+ <li class="equalaizer_item"></li>
+ <li class="equalaizer_item"></li>
+ <li class="equalaizer_item"></li>
+ <li class="equalaizer_item"></li>
+ <li class="equalaizer_item"></li>
+ <li class="equalaizer_item"></li>
+ <li class="equalaizer_item"></li>
+ <li class="equalaizer_item"></li>
+ <li class="equalaizer_item"></li>
+ <li class="equalaizer_item"></li>
+ <li class="equalaizer_item"></li>
+ <li class="equalaizer_item"></li>
+ <li class="equalaizer_item"></li>
+ <li class="equalaizer_item"></li>
+ <li class="equalaizer_item"></li>
+ <li class="equalaizer_item"></li>   
+</ul>
+</div>
+
+<section class="main  invisible " id="main">
+  <div class="main_photo">
+    <h1>Приветствую!<br>Я неизвестный музыкант</h1>
+    <h5>Проект является продуктом вымысла двух творческих людей: <br> Овиновым Игорем и Нагорной Дарьей. Приятного просмотра!</h5>
+    <a href="#about"><h5>подробнее</h5></a>
+  </div>
+</section>
+<section class="about" id="about">
+  <h1 class="brand">Обо мне</h1>
+     <div class="wrapper_about">
+  <div class="about_photo  invisible">
+    <div class="about_wrapper-year">
+        <h1>2017</h1>
+        <h1>2018</h1>
+    </div>
+   <div class="about_wrapper-piano">
+      <h5>Здесь должен быть выжный текст о творческом пути неизвестного музыканта.<br>
+        Но его здесь не будет, поэтому будем наслаждаться цитами из «Рик и Морти».	</h5>
+      <h5> Уверен, тебе это нравится, Морти! Это, наверное, лучший день в твоей жизни! <br>
+        Ты, должно быть, стал мэром города под названием «А я тебе говорил»! </h5>
+        <ul class="piano">
+          <li class= "piano-white" onmousedown="note(`c`)"></li>
+               <li class= "piano-black" onmousedown="note(`cd`)"></li>
+          <li class= "piano-white" onmousedown="note(`d`)" ></li>
+               <li class= "piano-black" onmousedown="note(`de`)" ></li>
+          <li class= "piano-white" onmousedown="note(`e`)" ></li>
+          <li class= "piano-white" onmousedown="note(`f`)" ></li>
+               <li class= "piano-black" onmousedown="note(`fg`)" ></li>
+          <li class= "piano-white" onmousedown="note(`g`)" ></li>
+               <li class= "piano-black" onmousedown="note(`ga`)" ></li>
+          <li class= "piano-white" onmousedown="note(`a`)" ></li>
+               <li class= "piano-black" onmousedown="note(`ab`)" ></li>
+          <li class= "piano-white" onmousedown="note(`b`)" ></li>
+          <li class= "piano-white" onmousedown="note(`c1`)" ></li>
+               <li class= "piano-black" onmousedown="note(`cd1`)" ></li>
+          <li class= "piano-white" onmousedown="note(`d1`)" ></li>
+               <li class= "piano-black" onmousedown="note(`de1`)" ></li>
+          <li class= "piano-white" onmousedown="note(`e1`)" ></li>
+          <li class= "piano-white" onmousedown="note(`f1`)" ></li>
+               <li class= "piano-black" onmousedown="note(`fg1`)" ></li>
+          <li class= "piano-white" onmousedown="note(`g1`)" ></li>
+               <li class= "piano-black" onmousedown="note(`ga1`)" ></li>
+          <li class= "piano-white" onmousedown="note(`a1`)" ></li>
+               <li class= "piano-black" onmousedown="note(`ab1`)" ></li>
+          <li class= "piano-white" onmousedown="note(`b1`)" ></li>
+        </ul>
+   </div>
+  </div>
+  <div class="about_second-photo  invisible">
+          <div class="second-photo_first-wrapper">
+                    <h5>Послушай, Морти, я не хочу тебя расстраивать, но то, что люди называют<br>
+                      любовью — это просто химическая реакция, принуждающая животных<br>
+                       размножаться. Поначалу это сильное чувство, но потом оно медленно <br>
+                       слабеет, оставляя тебя в неудавшемся браке без копейки в кармане. <br>
+                     Так было у меня, так будет у твоих родителей. Разорви порочный круг, <br>
+                     Морти, будь выше этого, займись наукой. </h5>
+                    <h4>дарья нагорная<br> дизайнер</h4>
+                    <h4>игорь овинов<br> разработчик</h4>
+                    <div class="second-photo_switch"></div>
+                 </div>
+       <div>
+    <h1>2018</h1>
+   <h1>2019</h1>
+</div>
+  </div>
+</div>
+</section>
+<section class="portfolio" id="portfolio">
+     <h1 class="brand">Портфолио</h1>
+     <div class="wrapper-portfolio invisible">
+     <div   class="porfolio_Btn left" onclick="uploadPotfolio(-6)" ></div>
+     <div class="portfolio_slider ">
+       <div class="portfolio_photo"><div><p></p></div></div>
+       <div class="portfolio_photo"><div><p></p></div></div>
+       <div class="portfolio_photo"><div><p></p></div></div>
+       <div class="portfolio_photo"><div><p></p></div></div>
+       <div class="portfolio_photo"><div><p></p></div></div>
+       <div class="portfolio_photo"><div><p></p></div></div>
+     </div>
+     <div class="porfolio_Btn right" onclick="uploadPotfolio(6)"></div>
+</div>
+</section>
+<section class="contact" id="contact">
+          <h1 class="brand">Контакты</h1>
+          <h5>Телефон: +7 (000) 000-00-00 <br> Почта: noname@gmail.com</h5>
+          <svg class="contact_arrow">
+          <polyline class="cls-1" points="25.5 75.88 12.93 88.46 0.35 75.88"/>
+          <line class="cls-1" x1="12.93" x2="12.93" y2="88"/></svg>
+     </section>
+     <footer>
+          <h5>web developer: igor ovinov<br>email: market1942@mail.ru</h5>
+          <h5>designer: daria nagornaya<br>email: daranagor@gmail.com</h5>
+          <h5>2019</h5>
+     </footer>
+     <script src="main.js"></script>
+     <script src="portfolio.js"></script>
+</body>
+</html>

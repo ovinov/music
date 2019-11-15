@@ -1,0 +1,81 @@
+.navbar{
+    width: 8.24vw;
+    height: 100%;
+    position: fixed;
+    border-right: #cccccc 1px solid;
+}
+.navbar_switch{
+ 
+    border-radius: 50%;
+    height:1.8vw;
+    width: 1.8vw;
+    border:#2E2E30 0.4vw solid;
+    transform: rotate(-60deg);
+    transition: background-color 0.2s, transform 0.2s;
+    background-color: #ffffff; 
+}
+.navbar_switch:after{
+    display: block;
+    content: "";
+    background-color: #2E2E30;
+    width: 0.5vw;
+    height: 0.5vw;
+    position: relative;
+    bottom: .6vw;
+    margin:auto;
+}
+.navbar_switch:hover{
+    transform: rotate(60deg);
+    background-color: #ff3333;
+}
+ 
+.navbar-wrapper{
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 7vw 3vw;  
+    grid-row-gap: 6vw;
+   width: 1vw;
+   margin-top:18vh;
+ 
+}
+ 
+.navbar-wrapper > h6{
+    font-size: 0.6vw;
+    margin: 0px;
+    left: 1vw;
+    margin-left: 2vw;
+    margin-top:3.2vh;
+    position: relative;
+    color: #999999;
+    font-family : Verdana;
+    bottom: 12px;
+    font-weight: lighter;
+    opacity: 0;
+    transition: 0.5s;
+}
+ 
+.navbar_text{
+   text-align: right;
+   padding-right: 0.5vw;
+}
+.navbar_logo{
+fill:none;
+stroke:#9a9b9e;
+stroke-linecap:round;
+stroke-linejoin:round;
+width: 2.2vw;
+height: 2.2vw;
+margin-left: 3vw;
+margin-top: 8vh;
+transition: background-color 0.2s, transform 0.2s;
+}
+.navbar_logo:hover{
+    fill:#ff3333;
+    stroke:#ff3333;
+}
+@keyframes names{
+    100%{
+        opacity: 1;
+        left: 0vw;  
+    }
+}
