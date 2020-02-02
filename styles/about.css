@@ -1,6 +1,9 @@
 .about{
     height: 200vh;
 }
+.about>h5{
+font-family:Georgia;
+}
 .wrapper_about{
     position: absolute;
     left: 15vw;
