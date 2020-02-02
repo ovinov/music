@@ -23,7 +23,7 @@
     font-weight: bold;
     font-family: Verdana;
     width: 150px;
-    margin: auto;   
+    margin: auto;
     margin-bottom: 1vh;
     font-size:1.5vw;
 }
@@ -68,7 +68,7 @@ top:31vh;
     left: 10px;
     margin:0 -12px 0 -22px;
     border-radius: 3px;
-  
+
 }
 .piano-white{
     border-radius: 2px;
@@ -102,7 +102,7 @@ top:31vh;
     color: #ffffff;
     font-family: Verdana;
     font-size: 11vw;
-    margin: 0; 
+    margin: 0;
     left: 13.6vw;
     top:3vh;
 }
@@ -111,9 +111,12 @@ top:31vh;
     color: #ffffff;
     font-family: Verdana;
     font-size: 4.9vw;
-    margin: 0; 
+    margin: 0;
     left:14vw;
-    top:250px;
+    top:32vh;
+}
+.about_second-photo>div>h3>span{
+  margin-left: 13.2vw;
 }
 .second-photo_first-wrapper{
     position: relative;
@@ -123,14 +126,15 @@ top:31vh;
 .second-photo_first-wrapper>h4{
  font-weight: 100;
  font-family : Verdana;
- font-size: 12px;
- margin-top:8.5vh;
+ font-size: 10px;
+ margin-top:9vh;
+ line-height : 3vh;
 }
-.second-photo_first-wrapper>h4:first-of-type{
-    margin-top:11vh
+.second-photo_first-wrapper>h4:last-of-type{
+ margin-top:5.5vh;
 }
 .about_second-photo>div>h1:last-of-type{
-top:31vh;
+top:4vh;
 }
 .about_second-photo>div>h5{
     width: 32vw;
@@ -146,11 +150,11 @@ top:31vh;
     width: 20vw;
     height: 20vw;
     background-color: red;
-    border-radius: 50%; 
+    border-radius: 50%;
     transform: rotate(-50deg);
     transition: transform 0.6s;
 }
- 
+
 .second-photo_switch:after{
     position: absolute;
     left: 2vw;
@@ -158,11 +162,11 @@ top:31vh;
     display:block;
     width: 12vw;
     height: 12vw;
-    background-color:#ff3333; 
+    background-color:#ff3333;
     border: 2vw #2E2E30 solid;
     border-radius: 50%;
     content:"";
-    
+
 }
 .second-photo_switch:before{
     margin:0;
