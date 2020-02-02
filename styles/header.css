@@ -20,7 +20,6 @@
    .main_photo > h5:first-of-type
        {
            font-weight: 100;
-           font-family : Georgia;
            font-size : 1.01vw;
            line-height : 30px;
            color : #9A9A9E;
@@ -45,7 +44,8 @@
        top:70vh;
        font-weight: 100;
        border: 1px solid #ffffff;
-       padding: 1.2vh 1.5vw 1.2vh 1.5vw;  
+       padding: 1.2vh 1.5vw 1.2vh 1.5vw;
+       font-family : Verdana;
    }
  
    .main_photo>a>h5:last-of-type::after{
