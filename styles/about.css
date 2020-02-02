@@ -1,6 +1,8 @@
 .about{
     height: 200vh;
 }
+.about>h5{
+color:red;}
 .wrapper_about{
     position: absolute;
     left: 15vw;
