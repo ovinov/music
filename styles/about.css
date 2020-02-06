@@ -45,8 +45,8 @@ top:31vh;
 .about_wrapper-piano> h5{
     position: relative;
     top:6vh;
-    width: 34vw;
-    font-size:0.72vw;
+    width: 35vw;
+    font-size:0.74vw;
 }
 .piano{
   position: absolute;
@@ -125,8 +125,8 @@ top:31vh;
 .second-photo_first-wrapper>h4{
  font-weight: 100;
  font-family : Verdana;
- font-size: 10px;
- margin-top:9vh;
+ font-size: 0.84vw;
+ margin-top:5.6vh;
  line-height : 3vh;
 }
 .second-photo_first-wrapper>h4:last-of-type{
@@ -136,10 +136,10 @@ top:31vh;
 top:4vh;
 }
 .about_second-photo>div>h5{
-    width: 32vw;
+    width: 33vw;
     position: relative;
     top: 0.5vh;
-    font-size:0.72vw;
+    font-size:0.74vw;
 }
 .second-photo_switch{
     z-index: 2;
