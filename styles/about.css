@@ -46,7 +46,6 @@ top:31vh;
     position: relative;
     top:6vh;
     width: 35vw;
-    font-size:0.74vw;
 }
 .piano{
   position: absolute;
@@ -125,7 +124,7 @@ top:31vh;
 .second-photo_first-wrapper>h4{
  font-weight: 100;
  font-family : Verdana;
- font-size: 0.74vw;
+ font-size: 0.82vw;
  margin-top: 9vh;
  line-height : 3vh;
 }
@@ -144,7 +143,7 @@ top:4vh;
 .second-photo_switch{
     z-index: 2;
     position: absolute;
-    left:14vw;
+    left:13vw;
     bottom: 11vh;
     width: 20vw;
     height: 20vw;
