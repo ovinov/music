@@ -7,7 +7,7 @@
 .equalaizer{
     list-style-type: none;
   position: absolute;
-    top:30vh;
+    top:26vh;
     display: grid;
     grid-template-rows: 1fr;
     grid-row-gap: 2px;
