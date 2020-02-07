@@ -46,6 +46,7 @@
        border: 1px solid #ffffff;
        padding: 1.2vh 2vw 1.2vh 2vw;
        font-family : Verdana;
+       font-size: 11px;
    }
  
    .main_photo>a>h5:last-of-type::after{
