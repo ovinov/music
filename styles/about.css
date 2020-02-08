@@ -3,7 +3,7 @@
 }
 .wrapper_about{
     position: absolute;
-    left: 15vw;
+    left: 15.3vw;
 }
 .about_photo{
     background-image: url(../pic/2.jpg);
@@ -17,6 +17,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     transition: 1s;
+    left:1vw;
 }
 .about> h2 {
     font-weight: bold;
